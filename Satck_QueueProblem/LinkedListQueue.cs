@@ -45,6 +45,16 @@ namespace Satck_QueueProblem
                 temp = temp.next;
             }
         }
+        public void Dequeue()
+        {
+            if (this.head == null)
+            {
+                Console.WriteLine("Queue is empty");
+            }
+            Node temp = this.head;
+            this.head = this.head.next;
+            Console.WriteLine(" {0} remove from Queue", temp.data);
+        }
 
 
     }

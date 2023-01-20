@@ -7,13 +7,12 @@ namespace Sack_QueueProblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Stack using LinkedList \n");
-            LinkedList linkedListStack = new LinkedList();
-            linkedListStack.Push(70);
-            linkedListStack.Push(30);
-            linkedListStack.Push(56);
-            linkedListStack.Display();
-           
+            Console.WriteLine("Queue using LinkedList \n");
+            LinkedListQueue linkedListQueue = new LinkedListQueue();
+            linkedListQueue.Enqueue(56);
+            linkedListQueue.Enqueue(30);
+            linkedListQueue.Enqueue(70);
+            linkedListQueue.Display();// this.top=this.top.next
             Console.ReadKey();
         }
     }

@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace Satck_QueueProblem
 {
-    internal class LinkedList
+    internal class LinkedListStack
     {
          private Node top;
             //30
